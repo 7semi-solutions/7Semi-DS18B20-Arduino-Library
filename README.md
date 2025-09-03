@@ -12,7 +12,6 @@ This Arduino library provides support for the **7Semi DS18B20 Temperature Sensor
 
 - 7Semi DS18B20 Digital Temperature Sensor Module  
 - Arduino-compatible board  
-- 4.7kΩ pull-up resistor (between data and VCC)  
 - Digital GPIO pin  
 
 ---
@@ -34,7 +33,9 @@ Then in your sketch:
 #include <7semi_ds18b20.h>
 
 ### 2. Wiring
-DS18B20 Pin	Arduino Pin
-VCC	5V or 3.3V
-GND	GND
-DQ (Data)	D2 (or any digital pin) + pull-up resistor to VCC
+| DS18B20 Pin | Arduino Pin                                       |
+| ----------- | ------------------------------------------------- |
+| VCC         | 5V or 3.3V                                        |
+| GND         | GND                                               |
+| DQ (Data)   | D2 (or any digital pin) + pull-up resistor to VCC |
+
