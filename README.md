@@ -37,5 +37,5 @@ Then in your sketch:
 | ----------- | ------------------------------------------------- |
 | VCC         | 5V or 3.3V                                        |
 | GND         | GND                                               |
-| DQ (Data)   | D2 (or any digital pin) + pull-up resistor to VCC |
+| DQ (Data)   | D2                                                |
 
